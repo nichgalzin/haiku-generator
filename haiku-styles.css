@@ -1,3 +1,5 @@
+/* Universal styles */
+
 body {
     color: #F4F1DE;
     background-color: #F4F1DE;
@@ -25,12 +27,13 @@ img {
     padding-top: 1rem;
 }
 
-
 .flex {
     display: flex;
     width: 100%;
     justify-content: center;
 }
+
+/* Label and button box */
 
 #label-box {
     text-align: center;
@@ -44,6 +47,8 @@ img {
     font-family: 'Fira Sans', sans-serif;
     margin-top: 3.5rem;
 }
+
+/* Haiku box */
 
 #haiku-box {
     width: 50%;
@@ -66,6 +71,8 @@ img {
 #line-three {
     padding-top: 1rem;
 }
+
+/* Button and hover effect */
 
 .button-1 {
   background-color: hsla(13, 68%, 63%, 1);
@@ -97,6 +104,8 @@ img {
 .button-1:hover {
   background-color: hsla(13, 68%, 70%, 1);
 }
+
+/* Media queries for smaller screens*/
 
 @media only screen and (max-width: 640px) { 
     .header {

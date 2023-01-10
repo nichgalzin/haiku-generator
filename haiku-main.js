@@ -6,10 +6,6 @@ const lineOne = document.getElementById('line-one');
 const lineTwo = document.getElementById('line-two');
 const lineThree = document.getElementById('line-three');
 
-// Universal variables
-
-
-
 // Object for word arrays
 
 const haikuWords = {
@@ -70,6 +66,3 @@ haikuBtn.addEventListener('click', () => {
 });
 
 
-console.log(firstLine());
-console.log(secondLine());
-console.log(thirdLine());
