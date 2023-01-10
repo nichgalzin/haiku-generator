@@ -1,0 +1,136 @@
+body {
+    color: #F4F1DE;
+    background-color: #F4F1DE;
+}
+
+.header {
+    text-align: center;
+    background-color: #3D405B;
+    height: 7rem;
+    margin-bottom: 1rem;
+}
+
+.image {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 5rem;
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 1rem;
+}
+
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#label-box {
+    text-align: center;
+    width: 50%;
+    height: 15rem;
+    background-color: #81B29A;
+}
+
+#label-box h2 {
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 3.5rem;
+}
+
+#haiku-box {
+    width: 50%;
+    height: 15rem;
+    background-color: #E07A5F;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+#line-one {
+    padding-top: 3.5rem;
+}
+
+#line-two {
+    padding-top: 1rem;
+}
+
+#line-three {
+    padding-top: 1rem;
+}
+
+.button-1 {
+  background-color: hsla(13, 68%, 63%, 1);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #F4F1DE;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  margin-top: 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover {
+  background-color: hsla(13, 68%, 70%, 1);
+}
+
+@media only screen and (max-width: 640px) { 
+    .header {
+        height: 6rem;
+        margin-bottom: 0rem;
+    }
+
+    .header h1 {
+        font-size: 3.5rem;
+
+    }
+
+    .flex {
+        display: block;
+    }
+
+    #label-box {
+        width: 100%;
+        height: 10rem;
+        margin-top: .5rem;
+    }
+
+    #label-box h2 {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        padding-top: 2rem;
+    }    
+
+    #haiku-box {
+        width: 100%;
+        height: 10rem;
+    }
+
+    #line-one {
+        padding-top: 1.5rem;
+    }
+}
